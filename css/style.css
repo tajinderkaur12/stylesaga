@@ -57,7 +57,8 @@ nav li a
     padding: 10px 15px;
     color: #000000;
 }
-nav li a:hover {
+nav li a:hover 
+{
     color: #e0a400;
 }
 h1,h2,h3,h4,h5,h6
@@ -69,9 +70,59 @@ footer, header, main, nav, section
 {
     display: block;
 }
-
 .wrapper 
 {
     max-width: 1380px;
     margin: 0 auto;
+}
+header {
+    box-shadow: 0 0 7px 0 #d2d2d2;
+}
+.full-wid {
+    width: 100%;
+    float: left;
+}
+
+.top-bar-contact a {
+    color: #fff;
+    padding-right: 20px;
+}
+.top-bar-contact a i {
+    padding-right: 5px;
+}
+.header-main {
+    width: 100%;
+    float: left;
+    box-shadow: 2px 5px 7px 0 #ddd;
+    padding: 14px 0;
+}
+.header-main .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: auto;
+    float: left;
+}
+img {
+    max-width: 100%;
+}
+footer, header, main, nav, section {
+    display: block;
+}
+#toggle {
+    display: none;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+nav li {
+    display: inline-block;
+}
+nav li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #000000;
 }
