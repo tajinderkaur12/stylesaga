@@ -5,7 +5,36 @@ $(document).ready(function() {
 });
 $(function() {
 	// Owl Carousel
-	var owl = $(".owl-carousel,.active-slider");
+	var owl = $(".owl-carousel");
+		owl.owlCarousel({
+		margin: 20,
+		items:1,
+		loop: true,
+		nav: false,
+		dots: true,
+		autoplay: true,
+		responsive: {
+			0: {
+			  items: 1
+			},
+
+			600: {
+			  items: 1
+			},
+
+			1024: {
+			  items: 3
+			},
+
+			1366: {
+			  items: 3
+			}
+		  }
+	});
+});
+$(function() {
+	// Owl Carousel
+	var owl = $(".active-slider");
 		owl.owlCarousel({
 		margin: 20,
 		items:1,

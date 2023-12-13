@@ -72,7 +72,7 @@ footer, header, main, nav, section
 }
 .wrapper 
 {
-    max-width: 1380px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 header 
@@ -241,6 +241,176 @@ footer .social-icons li
     margin-top: 7px;
     position: relative;
     top: -40px;
+}
+.offers-sec {
+    position: relative;
+    box-shadow: 0 0 7px 0 #ddd;
+    padding: 26px 26px 0;
+    background-color: #fff;
+}
+.offers-sec .offers-inner 
+{
+    overflow: hidden;
+    position: relative;
+}
+.offers-sec .offers-description 
+{
+    position: absolute;
+    top: 23px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.offers 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+}
+.offers-sec .offers-inner img 
+{
+    height: 260px;
+}
+.offers-sec .offers-inner a 
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.offers-sec .offers-description h3 
+{
+    font-size: 35px;
+}
+.partners 
+{
+    padding: 60px 0;
+}
+h2.heading 
+{
+    color: #2a3741;
+    font-size: 37px;
+}
+.sub-heading
+{
+	display:block;
+}
+.partners ul
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.partners ul li 
+{
+    box-shadow: 0 0 5px 0 #ddd;
+    padding: 30px;
+}
+.partners ul img 
+{
+    max-width: 120px;
+}
+.center
+{
+	text-align:center;
+}
+.offers-outer 
+{
+    padding: 60px 0;
+    background-color: #00cab924;
+}
+.offers-sec .offers-description span strong 
+{
+    font-size: 21px;
+    color: #00cab9;
+}
+.collection 
+{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    padding: 100px 0;
+    background-position: center;
+    background-attachment: fixed;
+}
+.heading-section.collection-heading 
+{
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 85%, rgba(0,0,0,0) 100%);
+    padding: 67px;
+    max-width: 63%;
+    margin: 0 auto;
+}
+.testimonial-item 
+{
+    box-shadow: 0 0 6px 0 #ddd;
+    border-radius: 10px;
+}
+.reviews .testimonial-item .author-desc 
+{
+    background: #fff;
+    padding: 30px 35px 68px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: -2px 16px 44px -32px transparent;
+}
+.reviews .testimonial-item .author-desc .desc 
+{
+    text-align: center;
+    position: relative;
+    color: #333;
+    padding: 10px 0 10px;
+    font-weight: 400;
+}
+.reviews .testimonial-item .author-desc .desc .quote 
+{
+    width: 50px;
+    top: -13px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.reviews .testimonial-item .author-desc .author-img 
+{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 130px;
+}
+.reviews .testimonial-item .author-desc .author-img img 
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.reviews .testimonial-item .author-part {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #f8b600;
+}
+.reviews .testimonial-item .author-part .name 
+{
+    color: #0a0a0a;
+    font-size: 22px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+.reviews .testimonial-item .author-desc .desc img 
+{
+    max-width: 70px;
+    margin: 0 auto 20px;
+}
+.reviews 
+{
+    padding: 60px 0;
+	background-image:url("../images/review-bg.jpg");
+}
+.reviews .heading
+{
+	text-align:center;
+}
+.reviews .item 
+{
+    padding: 10px;
 }
 @media(max-width:768px)
 {
