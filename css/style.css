@@ -667,12 +667,16 @@ input[type="submit"]:hover
 .prod-desc p:last-child {
     padding-bottom: 20px;
 }
-.owl-carousel.owl-drag .owl-item {
+.deals-carousel.owl-carousel.owl-drag .owl-item {
     padding: 9px 20px;
 }
 .deals
 {
     margin: 60px 0;
+}
+.prod-desc a
+{
+    margin-bottom: 20px;
 }
 @media(max-width:768px)
 {
