@@ -1,0 +1,96 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>E-commerce store</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="Product listing.html">Product</a></li>
+                    <li><a href="product detail.html">Product Detail</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                    <li><a href="payment.html">Payment Integration</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="cart.html">Shopping Cart</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <h1>Make a Payment</h1>
+                <form action="#">
+                    <h2>Contact Information</h2>
+                    <label for="name">Name: *</label>
+                    <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+                    <fieldset>
+                        <legend>Gender</legend>
+                        Male
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        Female
+                        <input type="radio" id="female" name="gender" value="female" required>
+                        Others
+                        <input type="radio" id="other" name="gender" value="other" required>
+                    </fieldset>
+                    <label for="address">Address:</label>
+                    <textarea id="address" placeholder="Enter your address here..." required></textarea>
+
+                    <label for="email">Email: *</label>
+                    <input type="email" id="email" name="email" placeholder="mail@email.com" required>
+
+                    <label for="pincode">Pincode: *</label>
+                    <input type="number" id="pincode" name="pincode" maxlength="6" placeholder="123456" required>
+                    <br>
+
+                    <h3>Payment Information</h3>
+                    <span>pay with Credit/Debit Card</span>
+                    <p>Do not worry if your credit card company is not listed,
+                        we encourage you to go ahead and make the purchase.</p>
+                    <label for="cardtype">Card Type: *</label>
+                    <select id="cardtype" name="cardtype" required>
+                        <option value="" selected>--Select Card Type--</option>
+                        <option value="visa">VISA</option>
+                        <option value="mastercard">Master Card</option>
+                        <option value="Googlepay">GooglePay</option>
+                        <option value="paypal">PayPal</option>
+                    </select>
+
+                    <label for="cardnumber">Card Number: *</label>
+                    <input type="number" id="cardnumber" name="cardnumber" maxlength="16" placeholder="0000-1111-2222-3333" required>
+
+                    <label for="expirydate">Expiry Date: *</label>
+                    <input type="date" id="expirydate" name="expirydate" required>
+
+                    <label for="cvv">CVV: *</label>
+                    <input type="number" id="cvv" name="cvv" placeholder="123" maxlength="3" required>
+
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="Product listing.html">Product</a></li>
+                    <li><a href="product detail.html">Product Detail</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                    <li><a href="payment.html">Payment Integration</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="cart.html">Shopping Cart</a></li>
+                </ul>
+            </nav>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
