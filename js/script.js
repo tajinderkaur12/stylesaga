@@ -5,7 +5,7 @@ $(document).ready(function() {
 });
 $(function() {
 	// Owl Carousel
-	var owl = $(".owl-carousel");
+	var owl = $(".deals-carousel");
 		owl.owlCarousel({
 		margin: 20,
 		items:1,
