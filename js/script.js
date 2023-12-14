@@ -133,7 +133,7 @@ $(document).ready(function () {
         return listItem;
     }
 
-    //filter products
+    //filter products//
     function filterProducts() {
         var selectedCategory = $("#clothing").val();
         var selectedPrice = $("#price").val();
