@@ -67,7 +67,7 @@ $(document).ready(function () {
     var products = [
         {
             name: "All",
-            image:  "images/black frock.jpeg",
+            image:  "images/blue-dress.jpeg",
             description: "Lorem ipsum dolor sit amet.",
             category: "All",
             price: "All",
@@ -75,7 +75,7 @@ $(document).ready(function () {
         },
         {
             name: "All",
-            image:  "images/Blue Floral Dress.jpeg",
+            image:  "images/black-dress.jpg",
             description: "Lorem ipsum dolor sit amet.",
             category: "All",
             price: "All",
@@ -83,7 +83,7 @@ $(document).ready(function () {
         },
         {
             name: "All",
-            image:  "images/Denim jacket.jpeg",
+            image:  "images/denim-jacket.jpg",
             description: "Lorem ipsum dolor sit amet.",
             category: "All",
             price: "All",
@@ -91,7 +91,7 @@ $(document).ready(function () {
         },
         {
             name: "All",
-            image:  "images/Grey pant.jpeg",
+            image:  "images/grey-pant.jpeg",
             description: "Lorem ipsum dolor sit amet.",
             category: "All",
             price: "All",
@@ -99,7 +99,7 @@ $(document).ready(function () {
         },
         {
             name: "All",
-            image:  "images/knit top.jpeg",
+            image:  "images/kint-top.gif",
             description: "Lorem ipsum dolor sit amet.",
             category: "All",
             price: "All",
@@ -107,7 +107,7 @@ $(document).ready(function () {
         },
         {
             name: "All",
-            image:  "images/Winter jacket.jpeg",
+            image:  "images/winterjacket2.jpeg",
             description: "Lorem ipsum dolor sit amet.",
             category: "All",
             price: "All",
